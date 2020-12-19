@@ -3,10 +3,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui'
+
+import locale from 'element-ui/lib/locale/lang/es'
+
 import 'element-ui/lib/theme-chalk/index.css'
 
 // Use
-Vue.use(ElementUI);
+Vue.use(ElementUI, { locale });
 Vue.use(VueRouter);
 Vue.use(Vuex)
 // component
